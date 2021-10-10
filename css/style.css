@@ -1,0 +1,267 @@
+@font-face{
+	font-family: "Mak";
+	font-style:normal;
+}
+
+body{
+    margin:0;
+    font-family: "Mak";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color:#FFFFFF;
+    background-color:#ffffff;
+    width:100%;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+
+nav{
+  margin-left: 6px;
+  z-index: 2;
+}
+.topnav a{
+  color:#C35932;
+  text-align: center;
+  padding: 39px 44px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 2;
+  position: relative;
+  top:34px;
+
+}
+.topnav a:hover{
+  border-bottom: 3px solid #0F1B2D;
+}
+.header{
+  background-color: #ffff;
+  max-width: 974px;
+  height: 119px;
+}
+.block_1{
+  width:1600px;
+  height: 1007px;
+  background-color: #C35932
+}
+.pic_1{
+  position: absolute;
+  width: 626px;
+  height: 782px;
+  left:974px;
+
+  top:0px;
+  z-index: 2;
+}
+.pic_2{
+  position: absolute;
+  width: 1099px;
+  height: 612px;
+  opacity: 0.5;
+  z-index: 1;
+  top:322px;
+  left:0px;
+}
+h1{
+  position: absolute;
+  width: 584px;
+  height: 118px;
+  left: 218px;
+  top: 450px;
+  font-size: 98px;
+  line-height: 118px;
+}
+.text_1{
+  position: absolute;
+  width: 809px;
+  height: 99px;
+  left: 418px;
+  top: 835px;
+  font-size: 35px;
+  line-height: 42px;
+}
+.vector_1{
+  position: absolute;
+  width: 1600px;
+  height: 236px;
+  left: 0px;
+  top: 1099px;
+}
+h2{
+  position: absolute;
+  width: 921px;
+  height: 78px;
+  left: 408px;
+  top: 1350px;
+  font-size: 60px;
+  line-height: 72px;
+  color: #C35932;
+}
+.pic_3{
+  position: absolute;
+  width: 559px;
+  height: 557px;
+  left: 944px;
+  top: 1496px;
+}
+.text_2{
+  position: absolute;
+  width: 598px;
+  height: 192px;
+  left: 237px;
+  top: 1680px;
+  color: #C35932;
+}
+.pic_4{
+  position: absolute;
+  width: 832.48px;
+  height: 313.66px;
+  top: 1394px;
+  opacity: 0.5;
+}
+.block_3{
+  position: absolute;
+  width: 1600px;
+  height: 787px;
+  left: 0px;
+  top: 2136px;
+  background-color: #C35932;
+}
+.pic_5{
+  position: relative;
+  width: 650px;
+  height: 478px;
+  left: 114px;
+  top: 241px;
+}
+.text_3{
+  position: absolute;
+  width: 732px;
+  height: 528px;
+  left: 826px;
+  top: 195px;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+.vector_2{
+  position: absolute;
+  width: 1600px;
+  height: 277px;
+  left: 0px;
+  top: 785px;
+}
+.block_4{
+  max-height: 1050px;
+  padding-bottom: 122px;
+}
+.text_4{
+  position: absolute;
+  width: 624px;
+  height: 423px;
+  left: 140px;
+  top: 3286px;
+  font-size: 40px;
+  line-height: 48px;
+  color: #C35932;
+}
+.pic_6{
+  position: absolute;
+  width: 689px;
+  height: 499px;
+  left: 869px;
+  top: 3262px;
+}
+.block_5{
+  position: absolute;
+  width: 1600px;
+  height: 1877px;
+  left: 0px;
+  top: 3877px;
+  background-color: #C35932;
+}
+.text_5{
+  position: relative;
+  width: 771px;
+  height: 352px;
+  left: 124px;
+  top: 334px;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+}
+.pic_7{
+  position: absolute;
+  width: 601px;
+  height: 988px;
+  left: 999px;
+  top:0px;
+  z-index: 2;
+}
+
+.text_6{
+  position: absolute;
+  width: 422px;
+  height: 72px;
+  left: 1089px;
+  top: 1380px;
+}
+.pic_9{
+  position: relative;
+  top:152px;
+}
+.pic_10{
+  position: absolute;
+  width: 760px;
+  height: 822px;
+  left: 840px;
+  top: 1013px;
+  opacity: 0.5;
+}
+.text_7{
+  position: absolute;
+  width: 562px;
+  height: 160px;
+  left: 1019px;
+  top: 790px;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #C35932;
+  z-index: 3;
+}
+a.button8 {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+a.button8:hover { background: rgba(255,255,255,.2); }
+a.button8:active { background: white; }
+.knopka{
+ position: absolute;
+ width: 310px;
+ height: 92px;
+ left: 1082px;
+ top: 1570px;
+}
+.pic_11{
+  position:relative;
+  width: 77px;
+  height: 77px;
+  top:-450px;
+  left: 1188px;
+}
